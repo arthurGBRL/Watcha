@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/styles_login.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Watcha</title>
+        <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap" rel="stylesheet">
-        <title> Watcha </title>
     </head>
     <body>
-
-        <header id="topo">
-            <div> 
-                <img id="img-logo" src='img/logo_transparent.png'>
-            </div>
-<!--             <h1>Watcha</h1> -->
+        <header>
+            <img id="img-logo" src='img/logo_transparent.png'>
         </header>
+
         <main>
             <input type="text" class="inputs" placeholder="Usuário/E-mail">
             <input type="password" class="inputs" placeholder="Senha">
-
             <div class="user_information">
-                <p> Deseja criar uma conta? <a href="#" class="account">Criar conta</a> </p>
-                <a href="#" class="account">Esqueci minha senha</a>
+                <p> Deseja criar uma conta? 
+                    <a href="cadastro.html" class="account">Criar conta</a> <br> 
+                    <a href="esqueci_senha.html" class="account">Esqueci minha senha</a> <br>
+                </p>
             </div>
         </main>
-
-        <button type="button" id="entry_bottom" onclick="location.href='#';">
-            Entrar
-        </button>
+        <footer>
+            <button type="button" id="entry_bottom" onclick="location.href='#';">Entrar</button>
+        </footer>
 
     </body>
