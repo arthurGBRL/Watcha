@@ -34,12 +34,12 @@ top: 10px;
     background: none;
     color: #FFFFFF;
     border: 0 none;
-    margin: 20px 0px 5px;
+    margin: 20px 0px 20px;
+    outline: none;
 }
 
 .user_information{
     position: relative;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -58,7 +58,7 @@ top: 10px;
 
 #entry_bottom{
     position: relative;
-    font-family: Roboto;
+    font-family: 'Baloo Tamma 2', cursive;
     width: 400px;
     height: 60px;
     font-size: 40px;
@@ -68,6 +68,8 @@ top: 10px;
     color: #FFFFFF;
     background-color: #899CCD;
     border-radius: 20px;
+    cursor: pointer;
+    outline: none;
 }
 
 #entry_bottom:hover {

@@ -25,12 +25,14 @@ main {
     justify-items: center;
 }
 
+.usuario-input {
+    margin-top: 5em;
+}
+
 .email-input, .usuario-input,
 .senha-input, .confsenha-input {
     position: relative;
 
-    box-shadow: 0 0 0 0;
-    border: 0 none;
     outline: 0;
 
     display: flex;
@@ -64,26 +66,22 @@ main {
     height: 100%;
 }
 
-#cadastrar-button {
+#cadastrar-button{
     position: relative;
-
-    background-color: #899CCD;
-
-    cursor: pointer;
-    bottom: 0em;
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 15em;
-    height: 3em;
-
-    border-radius: 1.25em;
-
+    font-family: 'Baloo Tamma 2', cursive;
+    width: 400px;
+    height: 60px;
+    font-size: 40px;
     text-align: center;
-    font-weight: bold;
+    margin-top: 100px;
+    left: calc((100% - 400px)/2);
+    color: #FFFFFF;
+    background-color: #899CCD;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
 }
 
 #cadastrar-button:hover {
-    color: aliceblue;
     background-color: #E67E22;
 }
