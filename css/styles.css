@@ -37,6 +37,10 @@ top: 10px;
     margin: 20px 0px 5px;
 }
 
+.inputs:focus::placeholder{
+    color: transparent;
+}
+
 .user_information{
     position: relative;
     font-family: Roboto;
