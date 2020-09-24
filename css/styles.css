@@ -1,17 +1,79 @@
 :root {
+    font-size: 60%; /* controle das medidas rem */
     font-family: 'Baloo Tamma 2', cursive;
     width: 100%;
     top: 0;
     left: 0;
 }
 
-#img-background {
-    top: 0;
-    left: 0;
-
+body {
     position: absolute;
-    width: 100%;
-    height: 100vh;
-
-    z-index: -1;
+    margin-left: calc((100% - 960px)/2);
+    width: 960px; 
+    background-image: url("../img/gradiente.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+#img-logo{
+position: relative;
+width: 20.3em;
+height: 25em;
+left: calc((100% - 20.3em)/2);
+top: 10px;
+}
+
+.inputs{
+    position: relative;
+    width: 500px;
+    height: 36px;
+    left: calc((100% - 500px)/2);
+    font-size: 24px;
+    text-align: center;
+    box-shadow: 0px 1px 0px;
+    background: none;
+    color: #FFFFFF;
+    border: 0 none;
+    margin: 20px 0px 5px;
+}
+
+.user_information{
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    width: 500px;
+    height: 16px;
+    left: calc((100% - 500px)/2);
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.account{
+    color: #E67E22;
+}
+
+#entry_bottom{
+    position: relative;
+    font-family: Roboto;
+    width: 400px;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    left: calc((100% - 400px)/2);
+    color: #FFFFFF;
+    background-color: #899CCD;
+    border-radius: 20px;
+}
+
+#entry_bottom:hover {
+    background-color: #E67E22;
+}
+
+/* #entry_bottom>a{
+    text-decoration: none;
+    color: #FFFFFF;
+} */
